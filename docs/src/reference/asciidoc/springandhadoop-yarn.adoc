@@ -579,7 +579,7 @@ directory.
 
 One central concept in Yarn is to use environment variables which then
 can be read from a container. While it's possible to read those variable
-at any time it is considered bad design if one chooce to do so. Spring
+at any time it is considered bad design if one chooses to do so. Spring
 Yarn will pass variable into application before any business methods are
 executed, which makes things more clearly and testing becomes much more
 easier.
@@ -594,7 +594,7 @@ of type EnvironmentFactoryBean) named, by default, _yarnEnvironment_.
 The default name is used, by conventions, by the other elements that
 require a reference to a environment variables.
 
-For conveniance it is possible to define a classpath entry directly into
+For convenience, it is possible to define a classpath entry directly into
 an environment. Most likely one is about to run some java code with
 libraries so classpath needs to be defined anyway.
 
